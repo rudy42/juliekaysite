@@ -1,0 +1,171 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/******GRID******/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/******HEADER*****/
+header {
+  height: 1500px;
+  background: url('https://cdn2.hubspot.net/hubfs/2142791/img/newmexico.jpg');
+  background-size: cover;
+}
+
+header h1 {
+    padding: 50px 0;
+    color: #33cccc;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+header h2 {
+    width: 850px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: #828282;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #000000;
+}
+
+
+
+
+/****ABOUT****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+
+#about p {
+  font-size: 21px;
+  color: #7f7f7f;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/*****WORK*****/
+#work {
+  background: #e6ffe6;
+  text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width:200px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #262a2b;
+    padding: 0 45px;
+}
+
+.hand-coded {
+  margin-top: 35px;
+}
+
+/****CONTACT****/
+#contact {
+  background: #ebebeb;
+  padding: 150px;
+}
+
+#work .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
